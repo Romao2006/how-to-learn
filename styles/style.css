@@ -228,10 +228,6 @@
   font-weight: bold;
 }
 
-.section__title_dark {
-  margin-top: 90px;
-}
-
 .section__subtitle_dark {
   width: 60%;
   text-align: center;
@@ -280,7 +276,6 @@
   justify-content: center;
   padding-top: 60px;
   padding-bottom: 40px;
-  min-height: 350px;
 }
 
 .footer__columns {
