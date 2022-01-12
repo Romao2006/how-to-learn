@@ -189,7 +189,6 @@
   display: flex;
   align-self: center;
   margin: auto;
-  margin-top: revert;
 }
 .feynman__subtitle {
   line-height: 51px;
@@ -217,7 +216,7 @@
   color: white;
 }
 
-.section__title_dark {
+.section-title_theme_dark {
   width: 60%;
   text-align: center;
   margin: auto;
