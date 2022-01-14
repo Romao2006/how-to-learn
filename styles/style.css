@@ -69,7 +69,7 @@
   background-color: #2f80ed;
 }
 
-.header_link {
+.header__link {
   color: #2f80ed;
   text-decoration: none;
 }
@@ -136,6 +136,8 @@
   font-size: 60px;
   font-weight: bold;
   line-height: 1.5em;
+  position: relative;
+  z-index: 1;
 }
 .section-subtitle {
   width: 60%;
@@ -144,6 +146,8 @@
   line-height: 34px;
   font-size: 24px;
   font-weight: normal;
+  position: relative;
+  z-index: 2;
 }
 
 .table {
@@ -266,7 +270,7 @@
   color: white;
   margin-right: 0;
   margin-top: 80px;
-  z-index: 1;
+  z-index: 3;
 }
 
 .footer {
@@ -328,24 +332,19 @@
   list-style: none;
 }
 
-.footer-link {
+.footer__column-link {
   text-decoration: none;
   color: white;
-  line-height: 30px;
-  font-size: 18px;
-}
-
-.footer__social-icon {
-  width: 16px;
-  min-height: 16px;
-  padding-right: 10px;
-}
-
-.footer__column-link {
   line-height: 30px;
   font-size: 18px;
   font-weight: normal;
   margin: 0 0 16px;
   padding: 0;
   list-style: none;
+}
+
+.footer__social-icon {
+  width: 16px;
+  min-height: 16px;
+  padding-right: 10px;
 }
